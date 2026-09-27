@@ -9,11 +9,11 @@ function getDB(): PDO
 {
     static $pdo = null;
     if ($pdo === null) {
-        $host    = '127.0.0.1';
+        $host    = 'sql312.infinityfree.com';
         $port    = '3306';
-        $dbname  = 'office_supplies';
-        $user    = 'root';
-        $pass    = '';          // Change if your MySQL root has a password
+        $dbname  = 'if0_43025623_office_supplies';
+        $user    = 'if0_43025623';
+        $pass    = 'oEEgm4h3B74fG';   // ใส่ตรงนี้
         $dsn     = "mysql:host=$host;port=$port;dbname=$dbname;charset=utf8mb4";
         $options = [
             PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
